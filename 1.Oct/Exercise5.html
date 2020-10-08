@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise5</title>
+    <style>
+
+
+.module:before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  background: yellow;
+  z-index: -1;
+}
+
+        .module {
+  width: 600px;
+  height: 600px;
+  background: green;
+  position: relative;
+  border: 10px solid yellow;  
+  margin: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.module:after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: green;
+  z-index: -1;
+}
+.border {
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    position: absolute;
+
+}
+    </style>
+</head>
+<body>
+    <div class= "border">  
+         <div class="module"><br> <br> <br> <br><br><br> Poitioning </div>
+</div>
+</body>
+</html>

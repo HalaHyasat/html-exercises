@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise2</title>
+    
+    <style>
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .side1 {
+        grid grid-area: left;
+        width: 50%;
+        float: left;
+        background: orange;
+        height: 50rem;
+        padding: 20rem 0rem 0rem 0rem;
+        margin: 0rem;
+        }
+
+        .side2 {
+        grid-area: right;
+        width: 50%;
+        float: left;
+        background: blue;
+        height: 50rem;
+        padding: 20rem 0rem 0rem 0rem;
+        margin: 0rem;
+       }
+
+       .grid-container {
+     display: grid;
+     grid-template-areas:
+    'side1 side2';}
+    
+    p {
+      text-align: center;
+      font-size: 4rem;
+      color: white;
+    }
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="side1">
+      <p>First Part</p>
+      </div>
+
+      <div class="side2">
+      <p>Second Part</p>
+      </div>
+    
+    
+</body>
+</html>

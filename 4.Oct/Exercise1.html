@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise1</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        height: 100vh;
+      }
+      
+      .header {
+        grid-area: header;
+        background: black;
+        padding: 1rem;
+        margin: 0rem 0rem 1rem 0rem;
+        height: 7rem;
+
+      }
+      
+      .side1 {
+        grid grid-area: left;
+        width: 75%;
+        float: left;
+        padding: 1rem;
+        background: orange;
+        margin-right: 1rem;
+        height: 26rem;
+        }
+      
+      .side2 {
+        grid-area: right;
+        width: 24%;
+        float: left;
+        padding: 1rem;
+        background: green;
+        height: 26rem;
+       }
+
+       .footer {
+        grid-area: footer;
+        background: blue;
+        padding: 1rem;
+        margin: 28rem 0rem 0rem 0rem;
+        height: 12rem;
+
+      }
+
+      .grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'side1 side1 side1 side1 side2 side2'
+    'footer footer footer footer footer';
+    height: 100vh;
+
+      }
+      </style>
+      </head>
+
+      <body>
+      
+      <div class="header">
+      </div>
+
+      <div class="side1">
+      </div>
+
+      <div class="side2">
+      </div>
+    
+
+      <div class="footer">
+      </div>
+
+</body>
+</html>

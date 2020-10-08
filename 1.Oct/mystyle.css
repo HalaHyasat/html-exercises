@@ -1,0 +1,23 @@
+
+    body {
+background-color: #f4f5bc;
+}
+   
+    div {
+        background: white;
+        border-style: solid;
+        padding: 3px;
+        margin: 3px;
+        border-color: black;
+    }
+
+    span {
+background-color: orange;
+}
+    section {
+        background: white;
+        color: red;
+        border-style: dotted;
+        margin: 3px;
+        border-color: red;
+    }
